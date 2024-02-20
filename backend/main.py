@@ -7,6 +7,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def execute_crew():
+  
     # Formando a equipe focada em tecnologia
     equipe = Crew(
       agents=[tarefa_pesquisa.agent, tarefa_escrita.agent],
@@ -16,7 +17,7 @@ def execute_crew():
 
     # Iniciando o processo de execução das tarefas
     resultado = equipe.kickoff()
-    return {"resultado": resultado}
+    return {resultado}
 
 if __name__ == '__main__':
     app.run(debug=True)
