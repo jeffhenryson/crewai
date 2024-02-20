@@ -1,4 +1,4 @@
-# app.py
+# main.py
 from flask import Flask
 from crewai import Crew, Process
 from tasks import tarefa_pesquisa, tarefa_escrita
