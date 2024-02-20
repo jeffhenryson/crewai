@@ -16,7 +16,7 @@ tema = 'IA na saúde'
 
 # Criando um agente pesquisador sênior
 pesquisador = Agent(
-  role='Filósofo Contemporâneo',
+  role='pesquisador sênior',
   goal=f'Descobrir tecnologias revolucionárias sobre {tema}',
   verbose=True,
   backstory="""Movido pela curiosidade, você está na vanguarda da
